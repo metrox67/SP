@@ -1,6 +1,6 @@
 <p align="left">
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C++ Logo" width="60" height="60" style="vertical-align: middle;">
-  <span style="font-size: 60px; font-weight: bold; vertical-align: middle;">Структурно Програмирање</span>
+  <span style="font-size: 60px; font-weight: bold; vertical-align: top;">Структурно Програмирање</span>
 </p>
 
 ---
