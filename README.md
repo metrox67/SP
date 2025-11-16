@@ -1,4 +1,3 @@
-# SP
 <p align="left">
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C++ Logo" width="60" height="60">
 </p>
