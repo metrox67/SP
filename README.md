@@ -1,5 +1,5 @@
 <h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C++ Logo" width="60" height="60" style="vertical-align: middle; margin-right: 15px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C++ Logo" width="60" height="60" style="vertical-align: middle; margin-right: 45px;">
   Структурно Програмирање
 </h1>
 
