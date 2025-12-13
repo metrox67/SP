@@ -1,30 +1,22 @@
+/*
+1. Да се напише функција void sort(int x, int y, int z) која ќе сортира
+три броеви во опаѓачки редослед, така што x ќе го содржи најголемиот број, а z најмалиот број.
+Main функцијата не смее да се менува.
+
+Пример:
+Влез:
+1 2 3
+Излез:
+3 2 1
+*/
+
 #include <iostream>
 using namespace std;
 
 int main() {
-    int n;
-    cin >> n;
-    int matrica[n][n];
-
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            cin >> matrica[i][j];
-        }
-    }
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            if (i > j && i + j > n - 1) {
-                matrica[i][j] *= -1;
-            }
-        }
-    }
-
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            cout << matrica[i][j] << " ";
-        }
-        cout << endl;
-    }
-
+    int a, b, c;
+    cin >> a >> b >> c;
+    sort(&a, &b, &c);
+    cout << a << " " << b << " " << c << endl;
     return 0;
 }

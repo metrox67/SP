@@ -1,30 +1,9 @@
-#include <iostream>
-using namespace std;
+/*
+Од стандарден влез да се прочита една низа од знаци со најмногу 100 карактери.
+Да се трансформира низата така што ќе ги претворите самогласките во големи букви, а согласките во мали букви.
+Вашата програма треба да дефинира функција void transform (char* text).
+Користете ја библиотеката <cctype>
 
-int main() {
-    int n;
-    cin >> n;
-    int matrica[n][n];
-
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            cin >> matrica[i][j];
-        }
-    }
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            if (i > j && i + j > n - 1) {
-                matrica[i][j] *= -1;
-            }
-        }
-    }
-
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            cout << matrica[i][j] << " ";
-        }
-        cout << endl;
-    }
-
-    return 0;
-}
+Input: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Output: AbcdEfghijklmnopqrstuvwxyz
+ */
